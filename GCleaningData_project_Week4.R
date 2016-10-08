@@ -62,3 +62,5 @@ run_analysis <- function(){
 
 # to test the Function - run this:
 # head(run_analysis())
+# to output data:
+# write.table(run_analysis(),file="GCleaningData_project_week4.txt",sep="\t",col.names=F, row.names=F)
