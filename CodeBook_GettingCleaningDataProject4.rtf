@@ -1,0 +1,126 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red16\green40\blue66;\red0\green0\blue0;\red109\green109\blue109;
+\red213\green233\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth15480\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sa240
+
+\f0\b\fs54 \cf2 Human Activity Recognition Using Smartphones Data Set Analyzed into Tidy Dataset (updated for analysis)
+\f1\b0\fs24 \cf0   \uc0\u8232 \
+\pard\intbl\itap1\pardeftab720\sa266
+
+\f0\b\fs26 \cf2 Abstract
+\b0 : Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.\cell 
+\pard\intbl\itap1\pardeftab720
+
+\f1\fs24 \cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrs\brdrw20\brdrcf4 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalc \clcbpat5 \clwWidth3240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1440
+\clvertalc \clshdrawnil \clwWidth2880\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat5 \clwWidth2700\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth740\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat5 \clwWidth2580\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7200
+\clvertalc \clshdrawnil \clwWidth1340\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sa266
+
+\f0\b\fs26 \cf2 Data Set Characteristics:\'a0\'a0
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 Multivariate, Time-Series\cell 
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Number of Instances:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 10299\cell 
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Area:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 Computer\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalc \clcbpat5 \clwWidth3240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1440
+\clvertalc \clshdrawnil \clwWidth2880\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat5 \clwWidth2700\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth740\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat5 \clwWidth2580\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7200
+\clvertalc \clshdrawnil \clwWidth1340\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Attribute Characteristics:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 N/A\cell 
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Number of Attributes:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 561\cell 
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Date Donated
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 2012-12-10\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrs\brdrw20\brdrcf4 \trbrdrb\brdrs\brdrw20\brdrcf4 \trbrdrr\brdrs\brdrw20\brdrcf4 
+\clvertalc \clcbpat5 \clwWidth3240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx1440
+\clvertalc \clshdrawnil \clwWidth2880\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat5 \clwWidth2700\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth740\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat5 \clwWidth2580\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx7200
+\clvertalc \clshdrawnil \clwWidth1340\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Associated Tasks:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 Classification, Clustering\cell 
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Missing Values?
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 N/A\cell 
+\pard\intbl\itap1\pardeftab720\sa266
+
+\b \cf2 Number of Web Hits:
+\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sa266
+\cf2 400401\cell \lastrow\row
+\pard\pardeftab720
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240
+
+\f0\b \cf2 Source:
+\b0 \
+\pard\pardeftab720\sa266
+
+\fs26 \cf2 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)\uc0\u8232 1 - Smartlab - Non-Linear Complex Systems Laboratory\u8232 DITEN - Universit\'e0 degli Studi di Genova, Genoa (I-16145), Italy. \u8232 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living\u8232 Universitat Polit\'e8cnica de Catalunya (BarcelonaTech). Vilanova i la Geltr\'fa (08800), Spain\u8232 activityrecognition '@' smartlab.ws\
+\pard\pardeftab720
+
+\f1\fs24 \cf0 \
+\pard\pardeftab720\sa240
+
+\f0\b \cf2 Data Set Information:
+\b0 \
+\pard\pardeftab720\sa266
+
+\fs26 \cf2 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. \uc0\u8232 \u8232 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.\u8232 \u8232 Datasets used:\
+-activity_labels.txt - labels for activity names\
+- features_info.txt - variable information on features\
+- train/X_train.txt  - training dataset \
+- train/y_train.txt - training labels\
+- test/X_test.txt - test dataset\
+- test/y_test.txt - test labels\
+}
